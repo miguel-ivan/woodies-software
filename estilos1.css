@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+  body {
+    background:white;    
+  }
+  #hero {
+      padding-top: 23px;
+  }
+
+  #navbar {
+      width: 1152px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+  }
+  #menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu_bar{
+    list-style: none; 
+    display: flex; 
+ }
+
+  #logo {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+  }
+
+  .menu_link {
+      color: #222;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: 'Nunito', sans-serif;
+      text-decoration: none;
+      padding: 9px 24px; 
+  }
+  .menu_link:hover{
+      color: #DAA250; 
+  }
+.sign_up_button {
+    padding: 9px 36px;
+    border: 1px solid #3e3f43;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    margin-left: 24px;
+    height: 20px;
+}
+
+#Mensaje {
+  font-size: 26px;
+  font-family: 'Nunito', sans-serif;
+  Font-style: mixed;
+  font: weight 0;
+  text-decoration: none;
+  align-items: center;
+  margin-top: 150px; 
+  padding-left: 102px;
+}
+#Mensaje_2 {
+  font-size: 36px;
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  height: 196px;
+  align-items: center;
+  padding-left: 102px;
+  margin-top: 250px; 
+}
+
+#mesa{
+  align-items: right;
+  padding-top: 65px;
+  background-size:25px 50px;
+  display: right;
+  position: relative;
+  padding-right: 100px;
+ }
+
+ .Explore_button {
+  padding: 9px 36px;
+  border: 1px solid #DAA520;
+  border-bottom: 8px;
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  margin-left: 24px;
+  height: 20px;
+  background-color:#DAA520 ;
+  margin-left: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
